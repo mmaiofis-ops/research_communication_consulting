@@ -62,6 +62,23 @@ section {
   padding: 20px 40px;
 }
 
+.btn-cta {
+  background-color: #5b9bd5;
+  border-color: #5b9bd5;
+  color: white;
+  &:active,
+  &:focus,
+  &:hover {
+    background-color: #3d82c0 !important;
+    border-color: #3d82c0 !important;
+    color: white;
+  }
+  &:active,
+  &:focus {
+    box-shadow: 0 0 0 0.2rem rgba(91, 155, 213, .5) !important;
+  }
+}
+
 .btn-primary {
   background-color: $primary;
   border-color: $primary;

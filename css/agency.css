@@ -70,6 +70,23 @@ section h3.section-subheading {
   padding: 20px 40px;
 }
 
+.btn-cta {
+  background-color: #5b9bd5;
+  border-color: #5b9bd5;
+  color: white;
+}
+
+.btn-cta:active, .btn-cta:focus, .btn-cta:hover {
+  background-color: #3d82c0 !important;
+  border-color: #3d82c0 !important;
+  color: white;
+}
+
+.btn-cta:active, .btn-cta:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(91, 155, 213, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(91, 155, 213, 0.5) !important;
+}
+
 .btn-primary {
   background-color: #fed136;
   border-color: #fed136;
